@@ -21,20 +21,3 @@ def index():
 
 </html> 
 '''
-
-@app.route("/aaa/<xxx>")
-def index2(xxx):
-    return f'''<!DOCTYPE html>
-<html>
-<head>
-<title>Projector 14 Homework</title>
-</head>
-
-<body>
-<h1>Hello World</h1>
-<h2>var: {xxx}</h2>
-</body>
-
-</html> 
-'''
-
